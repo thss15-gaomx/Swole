@@ -7,12 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <ul class="collection with-header">
-        <li class="collection-header"><h4>User name</h4></li>
-        <li class="collection-item">Dodge Fitness Center</li>
-        <li class="collection-item"><a href="availability.html">Current Availability</a></li>
-        <li class="collection-item"><a href="historic.html">Historic Trends</a> </li>
-    </ul>
+    <div class="avatar ">
+        <img src="../static/img/avatar.png" alt="" class="circle">
+        <span class="username">Mr. Swole</span>
+        <a href="settings.html">Edit Profile</a>
+    </div>
+    <div id="category-list">
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">Training Information</span>
+                    <div class="info-item"><i class="material-icons left">place</i>Dodge Fitness Center</div>
+                    <div class="info-item"><i class="material-icons left">date_range</i>December 10th, 2019</div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="availability.html">
+                            <img src="../static/img/monitor.jpg">
+                            <span class="card-title">Current Availability</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="history.html">
+                            <img src="../static/img/trends.png">
+                            <span class="card-title">Historic Trends</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

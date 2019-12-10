@@ -7,9 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <div>
+    <div id="settings-box">
         <a class="return-button" href="dashboard.html"><i class="material-icons">keyboard_return</i>Return</a>
-        Settings
+        <div class="avatar">
+            <img src="../static/img/avatar.png" alt="" class="circle">
+            <span class="username">Mr. Swole</span>
+        </div>
+        <div class="row" >
+            <form class="col s12">
+                <div class="row swith-row">
+                    <i class="material-icons left">notifications</i>
+                    Notifications
+                    <span class="switch">
+                        <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                        </label>
+                    </span>
+                </div>
+                <div class="row swith-row">
+                    <i class="material-icons left">share</i>
+                    Share
+                    <span class="switch">
+                        <label>
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                        </label>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="icon_email" type="email" class="validate">
+                        <label for="icon_email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <button class="waves-effect waves-light red lighten-2 btn">Save Changes</button>
+                </div>
+                <div class="submit-button">
+                    <a class="waves-effect waves-light btn" href="../index.html">Sign Out<i class="material-icons right">exit_to_app</i></a>
+                </div>
+            </form>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

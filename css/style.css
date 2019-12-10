@@ -37,10 +37,78 @@
 }
 
 .card-image {
-    height: 180px;
+    height: 160px;
     overflow: hidden;
 }
 
 #category-list .row {
     margin: 0;
+}
+
+#settings-box {
+    padding: 30px;
+}
+
+#settings-box .switch {
+    float: right;
+}
+
+.avatar {
+    margin: 20px 10px;
+}
+
+.avatar img {
+    width: 65px;
+}
+
+.avatar .username {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.swith-row {
+    padding: 10px 0 10px 10px;
+    font-size: 15px;
+}
+
+.swith-row .material-icons{
+    font-size: 30px;
+}
+
+.submit-button {
+    text-align: center;
+    margin: 30px;
+}
+
+.info-item {
+    margin: 25px 0 5px 0;
+}
+
+.top-box {
+    padding: 20px 10px 0;
+}
+
+.top-box p {
+    font-size: 25px;
+    margin: 0;
+}
+
+#historical-chart {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#best-time {
+    padding: 20px;
+}
+
+span.badge {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.collection {
+    margin-top: 30px;
 }

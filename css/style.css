@@ -8,7 +8,7 @@
 
 #index {
     text-align: center;
-    padding-top: 70%;
+    padding-top: 35vh;
 }
 
 .title {
@@ -25,13 +25,22 @@
 }
 
 #login-card {
-    padding: 50% 10%;
+    padding: 20vh 10%;
     background-color: #00000073;
     height: 100%;
 }
 
 #register-card {
-    padding: 15% 10%;
+    padding: 8vh 10%;
     background-color: #00000073;
     height: 100%;
+}
+
+.card-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+#category-list .row {
+    margin: 0;
 }

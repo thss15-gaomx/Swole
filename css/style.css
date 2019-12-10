@@ -1,0 +1,37 @@
+.settings-box {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../static/img/background.jpg");
+}
+
+#index {
+    text-align: center;
+    padding-top: 70%;
+}
+
+.title {
+    color: white;
+}
+
+.content {
+    text-align: center;
+}
+
+.return-button {
+    color: #25a69a;
+    display: inline-flex;
+}
+
+#login-card {
+    padding: 50% 10%;
+    background-color: #00000073;
+    height: 100%;
+}
+
+#register-card {
+    padding: 15% 10%;
+    background-color: #00000073;
+    height: 100%;
+}

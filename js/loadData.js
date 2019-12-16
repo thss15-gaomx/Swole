@@ -9,7 +9,7 @@ const badges = ['<span class="red lighten-2 badge" data-badge-caption="using"></
 const details = '<div class="collapsible-body"> \
                   <div>\
                       <i class="material-icons left">place</i>\
-                      <span>Dodge fittness center floor 3</span>\
+                      <span>Dodge fitness center floor 3</span>\
                   </div>\
                   <br/>\
                   <div>\
@@ -24,8 +24,6 @@ $(document).ready(function(){
 
 var url = document.location.toString();
 var para = url.split("?")[1];
-
-console.log(para);
 
 var collapsibleValue = equipmentList[para].map(x=>'<li><div class="collapsible-header">' + x + badges[Math.ceil(Math.random()*10) % 2] + '</div>' + details + '</li>');
 $(".collapsible").empty().append(collapsibleValue);

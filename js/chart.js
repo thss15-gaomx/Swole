@@ -10,7 +10,7 @@ const dataSource = {
       showhovereffect: "1",
       numbersuffix: "%",
       drawcrossline: "1",
-      plottooltext: "<b>$dataValue</b> of youth were on $seriesName",
+      plottooltext: "<b>$dataValue</b> of $seriesName were in use" ,
       theme: "fusion"
     },
     categories: [

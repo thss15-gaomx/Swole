@@ -113,6 +113,10 @@ span.badge {
     margin-top: 30px;
 }
 
-input {
+#register-card input {
+    color: #fff;
+}
+
+#login-card input {
     color: #fff;
 }
